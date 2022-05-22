@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background-color: #D4F4DD;
+}
+
+h1 {
+    font-size: 40px;
+    text-decoration-style: double;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+ul,
+ol {
+    font-size: 20px;
+}
+
+li {
+    margin: 20px;
+    font-weight: bold;
+    list-style: inside;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+li a:hover {
+    color: white;
+    background-color: rgb(214, 34, 70);
+}
+
+.lst_ingredient,
+.lst_step {
+    text-align: left;
+    font-weight: normal;
+}
+
+.lst_ingredient li,
+.lst_step li {
+    font-weight: normal;
+}
+
+.lst_step li {
+    list-style: decimal;
+}
